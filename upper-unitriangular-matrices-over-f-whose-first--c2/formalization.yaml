@@ -1,0 +1,61 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+project:
+  name: "Refuted: For matrices of order at least six, only two inverse weights sit closest below the maximum"
+  description: "A counterexample to the claim: For every integer n≥6, let A range over the n×n upper unitriangular matrices over F₂ whose first superdiagonal is all ones and whose entries outside the diagonal and first two superdiagonals are zero. If A is not the matrix with zero second superdiagonal, then its inverse has at most n(n−1)/2−(n−2) nonzero entries above the diagonal. Equality holds exactly when the second superdiagonal has a single one, at its first or last position."
+  authors:
+    - "Augusto Rehfeldt (operator of the mathforge pipeline)"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Augusto Rehfeldt"
+classification:
+  arxiv:
+    - "math.CO"
+    - "math.RA"
+  msc2020:
+    - "15A09"
+    - "15B34"
+sources:
+  -
+    title: "Refutation of a conjecture proposed by a language model in an automated mathforge run"
+    type: "original-proof"
+    relationship: "other"
+    note: "Novelty was screened only by an automated search of arXiv, Crossref and OpenAlex; the result may be a rediscovery."
+related_formalizations: []
+status:
+  scope: "Formalizes the negation of the claim above as `Mathforge.UpperUnitriangularMatricesOverFWhoseFirstC2.refutation`. The Lean statement was back-translated by a model and judged FAITHFUL; it was not audited by a person."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+automation:
+  methods:
+    -
+      method: "autonomous"
+      models:
+        - "gpt-6-sol"
+      framework: "mathforge"
+      tool_setup: "Models proposed the claim, wrote Python search and re-check scripts that were executed, and wrote the Lean file, repaired against Lean's own errors; the axiom report was read with #print axioms."
+      cost:
+        wall_time: "not tracked"
+        spend_usd: "not tracked"
+        hardware: "local machine (Python, Lean) and model APIs"
+      prompting_notes: "n/a"
+  spend_usd: "not tracked"
+  notes: "Fully automated, no human in the loop; the operator only chose to publish."
+fidelity:
+  divergences: "none known"
+review:
+  status: "unreviewed"
+  reviewers:
+    - "none"
+  notes: "Automated checks only: executed scripts, Lean 4 + Mathlib, and a model's back-translation of the Lean statement."
+alignment:
+  namespace: "Mathforge.UpperUnitriangularMatricesOverFWhoseFirstC2"
+  statements:
+    -
+      source: "For every integer n≥6, let A range over the n×n upper unitriangular matrices over F₂ whose first superdiagonal is all ones and whose entries outside the diagonal and first two superdiagonals are zero. If A is not the matrix with zero second superdiagonal, then its inverse has at most n(n−1)/2−(n−2) nonzero entries above the diagonal. Equality holds exactly when the second superdiagonal has a single one, at its first or last position."
+      lean: "Mathforge.UpperUnitriangularMatricesOverFWhoseFirstC2.refutation"
+      module: "Solution"
+      status: "proved"
+      note: "the negation of the claim"
+acknowledgements: "Lean 4 and Mathlib."
