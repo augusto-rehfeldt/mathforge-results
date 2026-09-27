@@ -1,0 +1,10 @@
+{
+  "folder": "connected-cell-sets-in-a-2-n-strip-that-meet-bot-c1",
+  "status": "machine-refuted",
+  "headline": "Refuted: Opposite-end strip animals occur in even numbers unless their area and perimeter match two parity conditions",
+  "date": "2026-09-27",
+  "models": "gpt-6-sol",
+  "palomar": true,
+  "run": "connected-cell-sets-in-a-2-n-strip-that-meet-both-end-column",
+  "id": "c1"
+}
