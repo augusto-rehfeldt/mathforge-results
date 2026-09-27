@@ -1,0 +1,10 @@
+{
+  "folder": "sidon-b-2-subsets-of-1-n-and-of-cyclic-groups-z--c4",
+  "status": "machine-refuted",
+  "headline": "Refuted: Every self-complementary Sidon family with given sum and maximum has even cardinality",
+  "date": "2026-09-27",
+  "models": "muse-spark-1.3-contributor-free",
+  "palomar": true,
+  "run": "sidon-b-2-subsets-of-1-n-and-of-cyclic-groups-z-n-with-all-p",
+  "id": "c4"
+}
