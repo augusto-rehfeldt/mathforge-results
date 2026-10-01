@@ -1,0 +1,10 @@
+{
+  "folder": "set-partitions-of-n-in-which-all-gaps-between-su-c1",
+  "status": "machine-refuted",
+  "headline": "Refuted: Odd refined partition counts lie on one diagonal, with parity determined by subsets of centered pairs",
+  "date": "2026-10-01",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "set-partitions-of-n-in-which-all-gaps-between-successive-ele",
+  "id": "c1"
+}
