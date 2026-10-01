@@ -1,0 +1,62 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+project:
+  name: "Refuted: Compressing two prime-sized residue classes preserves partition counts modulo prime squares, apart from an explicit paired-block correction"
+  description: "A counterexample to the claim: For every prime p ≥ 5 and every integer n ≥ 3p−1, let A consist of the p smallest elements of [n] congruent to 1 modulo 3, let B consist of the p smallest elements congruent to 2 modulo 3, and put R = [n] \\ (A ∪ B). Then, coefficientwise in the integer polynomial ring Z[x,y], F_[n](x,y) ≡ H_R,p(x,y) + p! x^p F_R(x,y) modulo p²."
+  authors:
+    - "Augusto Rehfeldt (operator of the mathforge pipeline)"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Augusto Rehfeldt"
+classification:
+  arxiv:
+    - "math.CO"
+    - "math.NT"
+  msc2020:
+    - "05A18"
+    - "05A15"
+    - "11A07"
+sources:
+  -
+    title: "Refutation of a conjecture proposed by a language model in an automated mathforge run"
+    type: "original-proof"
+    relationship: "other"
+    note: "Novelty was screened only by an automated search of arXiv, Crossref and OpenAlex; the result may be a rediscovery."
+related_formalizations: []
+status:
+  scope: "Formalizes the negation of the claim above as `Mathforge.SetPartitionsOfNInWhichEveryBlockHasEleC4.PartitionCounterexample.refutation`. The Lean statement was back-translated by a model and judged FAITHFUL; it was not audited by a person."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+automation:
+  methods:
+    -
+      method: "autonomous"
+      models:
+        - "gpt-6.1-sol"
+      framework: "mathforge"
+      tool_setup: "Models proposed the claim, wrote Python search and re-check scripts that were executed, and wrote the Lean file, repaired against Lean's own errors; the axiom report was read with #print axioms."
+      cost:
+        wall_time: "not tracked"
+        spend_usd: "not tracked"
+        hardware: "local machine (Python, Lean) and model APIs"
+      prompting_notes: "n/a"
+  spend_usd: "not tracked"
+  notes: "Fully automated, no human in the loop; the operator only chose to publish."
+fidelity:
+  divergences: "none known"
+review:
+  status: "unreviewed"
+  reviewers:
+    - "none"
+  notes: "Automated checks only: executed scripts, Lean 4 + Mathlib, and a model's back-translation of the Lean statement."
+alignment:
+  namespace: "Mathforge.SetPartitionsOfNInWhichEveryBlockHasEleC4"
+  statements:
+    -
+      source: "For every prime p ≥ 5 and every integer n ≥ 3p−1, let A consist of the p smallest elements of [n] congruent to 1 modulo 3, let B consist of the p smallest elements congruent to 2 modulo 3, and put R = [n] \\ (A ∪ B). Then, coefficientwise in the integer polynomial ring Z[x,y], F_[n](x,y) ≡ H_R,p(x,y) + p! x^p F_R(x,y) modulo p²."
+      lean: "Mathforge.SetPartitionsOfNInWhichEveryBlockHasEleC4.PartitionCounterexample.refutation"
+      module: "Solution"
+      status: "proved"
+      note: "the negation of the claim"
+acknowledgements: "Lean 4 and Mathlib."

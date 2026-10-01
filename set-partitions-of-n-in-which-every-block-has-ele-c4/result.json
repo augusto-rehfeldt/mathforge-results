@@ -1,0 +1,10 @@
+{
+  "folder": "set-partitions-of-n-in-which-every-block-has-ele-c4",
+  "status": "machine-refuted",
+  "headline": "Refuted: Compressing two prime-sized residue classes preserves partition counts modulo prime squares, apart from an explicit paired-block correction",
+  "date": "2026-10-01",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "set-partitions-of-n-in-which-every-block-has-element-sum-div",
+  "id": "c4"
+}
