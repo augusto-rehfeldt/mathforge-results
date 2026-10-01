@@ -4,7 +4,7 @@ Results from [mathforge](https://github.com/augusto-rehfeldt/mathforge), a fully
 
 Each folder holds the write-up (`README.md`), the scripts that were run, and, where the split succeeded, a Lake project ready for the [Palomar registry](https://palomar-registry.org/) (`Challenge.lean`, `Solution.lean`, `comparator.json`, `formalization.yaml`).
 
-17 result(s).
+18 result(s).
 
 | Date | Verdict | Claim | Models | Palomar |
 | --- | --- | --- | --- | --- |
@@ -12,6 +12,7 @@ Each folder holds the write-up (`README.md`), the scripts that were run, and, wh
 | 2026-10-01 | false | [Every strongly connected tournament with edge-triangle capacity two admits a connectivity-preserving vertex deletion of weighted triangle cost at most eight](tournaments-in-which-every-directed-edge-belongs-c4/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Nine boundary bits and one binary subspace determine every rank-refined extension of a bandwidth-three square-zero matrix](strictly-upper-triangular-matrices-a-over-f-with-c1/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Exactly two equal-sum relations in a gapless sequence must have supports intersecting in exactly two indices](strictly-increasing-sequences-of-positive-intege-c1/) | gpt-6.1-sol | bundle |
+| 2026-10-01 | false | [Every qualifying spanning tree of the three-row grid has at least n+1 leaves and six-cycle omissions combined](spanning-trees-of-the-3-n-rectangular-grid-in-wh-c3/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Odd-length partition counts modulo two reduce to weighted matchings on blocks of half-length partitions](set-partitions-of-n-in-which-no-block-contains-t-c2/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Compressing two prime-sized residue classes preserves partition counts modulo prime squares, apart from an explicit paired-block correction](set-partitions-of-n-in-which-every-block-has-ele-c4/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Odd refined partition counts lie on one diagonal, with parity determined by subsets of centered pairs](set-partitions-of-n-in-which-all-gaps-between-su-c1/) | gpt-6.1-sol | bundle |

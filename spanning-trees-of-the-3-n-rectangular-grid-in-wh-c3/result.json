@@ -1,0 +1,10 @@
+{
+  "folder": "spanning-trees-of-the-3-n-rectangular-grid-in-wh-c3",
+  "status": "machine-refuted",
+  "headline": "Refuted: Every qualifying spanning tree of the three-row grid has at least n+1 leaves and six-cycle omissions combined",
+  "date": "2026-10-01",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "spanning-trees-of-the-3-n-rectangular-grid-in-which-adding-a",
+  "id": "c3"
+}

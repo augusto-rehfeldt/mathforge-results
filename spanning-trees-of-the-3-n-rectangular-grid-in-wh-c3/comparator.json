@@ -1,0 +1,13 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "Mathforge.SpanningTreesOfThe3NRectangularGridInWhC3.refutation"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ]
+}
