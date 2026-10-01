@@ -1,0 +1,10 @@
+{
+  "folder": "strictly-upper-triangular-matrices-a-over-f-with-c1",
+  "status": "machine-refuted",
+  "headline": "Refuted: Nine boundary bits and one binary subspace determine every rank-refined extension of a bandwidth-three square-zero matrix",
+  "date": "2026-10-01",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "strictly-upper-triangular-matrices-a-over-f-with-a-0-and-a-0",
+  "id": "c1"
+}

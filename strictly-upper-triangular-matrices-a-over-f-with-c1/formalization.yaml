@@ -1,0 +1,61 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+project:
+  name: "Refuted: Nine boundary bits and one binary subspace determine every rank-refined extension of a bandwidth-three square-zero matrix"
+  description: "A counterexample to the claim: Conjecture. For every integer n≥0, the polynomials F_n(H,I) defined below satisfy the following autonomous recurrence. Initialize F_0(0,{0})=1 and all other states at zero. For each state (H,I) and each v=(v₁,v₂,v₃) in F₂³ satisfying Hv=0, add F_n(H,I)t^ε x₁^{v₃}x₂^{v₂}x₃^{v₁} to F_{n+1}(H′,I′), where ε=0 if v∈I and ε=1 otherwise. Here H′ is the 6-by-3 matrix whose first two columns are (H_{2,2},H_{3,2},H_{4,2},H_{5,2},H_{6,2},0)ᵀ and (H_{2,3},H_{3,3},H_{4,3},H_{5,3},H_{6,3},0)ᵀ, and whose third column is (0,0,v₁,v₂,v₃,0)ᵀ. Also I′={(a,b,0):(0,a,b)∈I+span(v)}. No information about the interior matrix beyond (H,I) is needed, including when different interior matrices have different kernel dimensions."
+  authors:
+    - "Augusto Rehfeldt (operator of the mathforge pipeline)"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Augusto Rehfeldt"
+classification:
+  arxiv:
+    - "math.CO"
+  msc2020:
+    - "05A15"
+    - "15B33"
+    - "15A03"
+sources:
+  -
+    title: "Refutation of a conjecture proposed by a language model in an automated mathforge run"
+    type: "original-proof"
+    relationship: "other"
+    note: "Novelty was screened only by an automated search of arXiv, Crossref and OpenAlex; the result may be a rediscovery."
+related_formalizations: []
+status:
+  scope: "Formalizes the negation of the claim above as `Mathforge.StrictlyUpperTriangularMatricesAOverFWithC1.Counterexample.refutation`. The Lean statement was back-translated by a model and judged FAITHFUL; it was not audited by a person."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+automation:
+  methods:
+    -
+      method: "autonomous"
+      models:
+        - "gpt-6.1-sol"
+      framework: "mathforge"
+      tool_setup: "Models proposed the claim, wrote Python search and re-check scripts that were executed, and wrote the Lean file, repaired against Lean's own errors; the axiom report was read with #print axioms."
+      cost:
+        wall_time: "not tracked"
+        spend_usd: "not tracked"
+        hardware: "local machine (Python, Lean) and model APIs"
+      prompting_notes: "n/a"
+  spend_usd: "not tracked"
+  notes: "Fully automated, no human in the loop; the operator only chose to publish."
+fidelity:
+  divergences: "none known"
+review:
+  status: "unreviewed"
+  reviewers:
+    - "none"
+  notes: "Automated checks only: executed scripts, Lean 4 + Mathlib, and a model's back-translation of the Lean statement."
+alignment:
+  namespace: "Mathforge.StrictlyUpperTriangularMatricesAOverFWithC1"
+  statements:
+    -
+      source: "Conjecture. For every integer n≥0, the polynomials F_n(H,I) defined below satisfy the following autonomous recurrence. Initialize F_0(0,{0})=1 and all other states at zero. For each state (H,I) and each v=(v₁,v₂,v₃) in F₂³ satisfying Hv=0, add F_n(H,I)t^ε x₁^{v₃}x₂^{v₂}x₃^{v₁} to F_{n+1}(H′,I′), where ε=0 if v∈I and ε=1 otherwise. Here H′ is the 6-by-3 matrix whose first two columns are (H_{2,2},H_{3,2},H_{4,2},H_{5,2},H_{6,2},0)ᵀ and (H_{2,3},H_{3,3},H_{4,3},H_{5,3},H_{6,3},0)ᵀ, and whose third column is (0,0,v₁,v₂,v₃,0)ᵀ. Also I′={(a,b,0):(0,a,b)∈I+span(v)}. No information about the interior matrix beyond (H,I) is needed, including when different interior matrices have different kernel dimensions."
+      lean: "Mathforge.StrictlyUpperTriangularMatricesAOverFWithC1.Counterexample.refutation"
+      module: "Solution"
+      status: "proved"
+      note: "the negation of the claim"
+acknowledgements: "Lean 4 and Mathlib."
