@@ -1,0 +1,10 @@
+{
+  "folder": "permutations-of-n-in-which-each-occurring-nonzer-c4",
+  "status": "machine-refuted",
+  "headline": "Refuted: A six-cycle using three nonresonant displacement lengths fits exactly when its available span reaches largest plus middle minus smallest",
+  "date": "2026-10-01",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "permutations-of-n-in-which-each-occurring-nonzero-absolute-d",
+  "id": "c4"
+}

@@ -1,0 +1,59 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+project:
+  name: "Refuted: A six-cycle using three nonresonant displacement lengths fits exactly when its available span reaches largest plus middle minus smallest"
+  description: "A counterexample to the claim: For every choice of integers 1 ≤ a < b < c with c ≠ a+b, and every integer n ≥ 6, there exists a permutation π of {1,…,n} having exactly one cycle of length six and n−6 fixed points, whose nonzero signed displacements consist exactly of +a, −a, +b, −b, +c, −c, if and only if n ≥ b+c−a+1."
+  authors:
+    - "Augusto Rehfeldt (operator of the mathforge pipeline)"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Augusto Rehfeldt"
+classification:
+  arxiv:
+    - "math.CO"
+  msc2020:
+    - "05A05"
+sources:
+  -
+    title: "Refutation of a conjecture proposed by a language model in an automated mathforge run"
+    type: "original-proof"
+    relationship: "other"
+    note: "Novelty was screened only by an automated search of arXiv, Crossref and OpenAlex; the result may be a rediscovery."
+related_formalizations: []
+status:
+  scope: "Formalizes the negation of the claim above as `Mathforge.PermutationsOfNInWhichEachOccurringNonzerC4.refutation`. The Lean statement was back-translated by a model and judged FAITHFUL; it was not audited by a person."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+automation:
+  methods:
+    -
+      method: "autonomous"
+      models:
+        - "gpt-6.1-sol"
+      framework: "mathforge"
+      tool_setup: "Models proposed the claim, wrote Python search and re-check scripts that were executed, and wrote the Lean file, repaired against Lean's own errors; the axiom report was read with #print axioms."
+      cost:
+        wall_time: "not tracked"
+        spend_usd: "not tracked"
+        hardware: "local machine (Python, Lean) and model APIs"
+      prompting_notes: "n/a"
+  spend_usd: "not tracked"
+  notes: "Fully automated, no human in the loop; the operator only chose to publish."
+fidelity:
+  divergences: "none known"
+review:
+  status: "unreviewed"
+  reviewers:
+    - "none"
+  notes: "Automated checks only: executed scripts, Lean 4 + Mathlib, and a model's back-translation of the Lean statement."
+alignment:
+  namespace: "Mathforge.PermutationsOfNInWhichEachOccurringNonzerC4"
+  statements:
+    -
+      source: "For every choice of integers 1 ≤ a < b < c with c ≠ a+b, and every integer n ≥ 6, there exists a permutation π of {1,…,n} having exactly one cycle of length six and n−6 fixed points, whose nonzero signed displacements consist exactly of +a, −a, +b, −b, +c, −c, if and only if n ≥ b+c−a+1."
+      lean: "Mathforge.PermutationsOfNInWhichEachOccurringNonzerC4.refutation"
+      module: "Solution"
+      status: "proved"
+      note: "the negation of the claim"
+acknowledgements: "Lean 4 and Mathlib."
