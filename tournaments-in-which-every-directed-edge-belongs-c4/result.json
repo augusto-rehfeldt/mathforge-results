@@ -1,0 +1,10 @@
+{
+  "folder": "tournaments-in-which-every-directed-edge-belongs-c4",
+  "status": "machine-refuted",
+  "headline": "Refuted: Every strongly connected tournament with edge-triangle capacity two admits a connectivity-preserving vertex deletion of weighted triangle cost at most eight",
+  "date": "2026-10-01",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "tournaments-in-which-every-directed-edge-belongs-to-at-most-",
+  "id": "c4"
+}
