@@ -1,0 +1,10 @@
+{
+  "folder": "pairs-of-polynomials-a-x-b-x-of-degree-n-1-with--c1",
+  "status": "machine-refuted",
+  "headline": "Refuted: Two opposite correlation defects force even length and tightly constrain coefficientwise Hamming distance",
+  "date": "2026-10-01",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "pairs-of-polynomials-a-x-b-x-of-degree-n-1-with-all-coeffici",
+  "id": "c1"
+}

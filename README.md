@@ -4,7 +4,7 @@ Results from [mathforge](https://github.com/augusto-rehfeldt/mathforge), a fully
 
 Each folder holds the write-up (`README.md`), the scripts that were run, and, where the split succeeded, a Lake project ready for the [Palomar registry](https://palomar-registry.org/) (`Challenge.lean`, `Solution.lean`, `comparator.json`, `formalization.yaml`).
 
-12 result(s).
+13 result(s).
 
 | Date | Verdict | Claim | Models | Palomar |
 | --- | --- | --- | --- | --- |
@@ -17,6 +17,7 @@ Each folder holds the write-up (`README.md`), the scripts that were run, and, wh
 | 2026-10-01 | false | [Minimum nesting counts factor into cycle compositions and binary choices within each cycle](perfect-matchings-of-the-ordered-set-2n-in-which-c4/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Non-reflected sets with identical difference multisets must each contain at least three points absent from the other](pairs-of-subsets-a-b-of-0-n-each-containing-0-an-c3/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Nonreflection homometric sets differing in only two points each occupy at most half their ambient interval](pairs-of-subsets-a-b-of-0-n-each-containing-0-an-c2/) | gpt-6.1-sol | bundle |
+| 2026-10-01 | false | [Two opposite correlation defects force even length and tightly constrain coefficientwise Hamming distance](pairs-of-polynomials-a-x-b-x-of-degree-n-1-with--c1/) | gpt-6.1-sol | bundle |
 | 2026-09-27 | false | [For matrices of order at least six, only two inverse weights sit closest below the maximum](upper-unitriangular-matrices-over-f-whose-first--c2/) | gpt-6-sol | bundle |
 | 2026-09-27 | false | [Every self-complementary Sidon family with given sum and maximum has even cardinality](sidon-b-2-subsets-of-1-n-and-of-cyclic-groups-z--c4/) | muse-spark-1.3-contributor-free | bundle |
 | 2026-09-27 | false | [Opposite-end strip animals occur in even numbers unless their area and perimeter match two parity conditions](connected-cell-sets-in-a-2-n-strip-that-meet-bot-c1/) | gpt-6-sol | bundle |
