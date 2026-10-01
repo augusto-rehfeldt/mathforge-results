@@ -4,10 +4,11 @@ Results from [mathforge](https://github.com/augusto-rehfeldt/mathforge), a fully
 
 Each folder holds the write-up (`README.md`), the scripts that were run, and, where the split succeeded, a Lake project ready for the [Palomar registry](https://palomar-registry.org/) (`Challenge.lean`, `Solution.lean`, `comparator.json`, `formalization.yaml`).
 
-7 result(s).
+8 result(s).
 
 | Date | Verdict | Claim | Models | Palomar |
 | --- | --- | --- | --- | --- |
+| 2026-10-01 | false | [Occupied vertices equal twice enclosed vacancies plus six per cycle, corrected by enclosed squares and four-vertex cycles](vertex-subsets-of-the-4-n-rectangular-grid-whose-c1/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Odd-length partition counts modulo two reduce to weighted matchings on blocks of half-length partitions](set-partitions-of-n-in-which-no-block-contains-t-c2/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Compressing two prime-sized residue classes preserves partition counts modulo prime squares, apart from an explicit paired-block correction](set-partitions-of-n-in-which-every-block-has-ele-c4/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Non-reflected sets with identical difference multisets must each contain at least three points absent from the other](pairs-of-subsets-a-b-of-0-n-each-containing-0-an-c3/) | gpt-6.1-sol | bundle |

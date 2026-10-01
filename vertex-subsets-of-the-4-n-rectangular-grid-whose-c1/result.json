@@ -1,0 +1,10 @@
+{
+  "folder": "vertex-subsets-of-the-4-n-rectangular-grid-whose-c1",
+  "status": "machine-refuted",
+  "headline": "Refuted: Occupied vertices equal twice enclosed vacancies plus six per cycle, corrected by enclosed squares and four-vertex cycles",
+  "date": "2026-10-01",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "vertex-subsets-of-the-4-n-rectangular-grid-whose-induced-sub",
+  "id": "c1"
+}
