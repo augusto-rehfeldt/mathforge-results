@@ -1,0 +1,10 @@
+{
+  "folder": "pairs-of-subsets-a-b-of-0-n-each-containing-0-an-c3",
+  "status": "machine-refuted",
+  "headline": "Refuted: Non-reflected sets with identical difference multisets must each contain at least three points absent from the other",
+  "date": "2026-10-01",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "pairs-of-subsets-a-b-of-0-n-each-containing-0-and-n-with-ide",
+  "id": "c3"
+}
