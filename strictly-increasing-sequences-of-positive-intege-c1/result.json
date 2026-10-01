@@ -1,0 +1,10 @@
+{
+  "folder": "strictly-increasing-sequences-of-positive-intege-c1",
+  "status": "machine-refuted",
+  "headline": "Refuted: Exactly two equal-sum relations in a gapless sequence must have supports intersecting in exactly two indices",
+  "date": "2026-10-01",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "strictly-increasing-sequences-of-positive-integers-having-ex",
+  "id": "c1"
+}
