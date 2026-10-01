@@ -1,0 +1,10 @@
+{
+  "folder": "permutations-of-n-in-which-each-occurring-nonzer-c2",
+  "status": "machine-refuted",
+  "headline": "Refuted: With exactly three long displacement lengths, every permutation not composed of transpositions has one explicitly shaped six-cycle",
+  "date": "2026-10-01",
+  "models": "gpt-6.1-sol",
+  "palomar": false,
+  "run": "permutations-of-n-in-which-each-occurring-nonzero-absolute-d",
+  "id": "c2"
+}

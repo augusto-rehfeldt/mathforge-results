@@ -4,7 +4,7 @@ Results from [mathforge](https://github.com/augusto-rehfeldt/mathforge), a fully
 
 Each folder holds the write-up (`README.md`), the scripts that were run, and, where the split succeeded, a Lake project ready for the [Palomar registry](https://palomar-registry.org/) (`Challenge.lean`, `Solution.lean`, `comparator.json`, `formalization.yaml`).
 
-13 result(s).
+14 result(s).
 
 | Date | Verdict | Claim | Models | Palomar |
 | --- | --- | --- | --- | --- |
@@ -14,6 +14,7 @@ Each folder holds the write-up (`README.md`), the scripts that were run, and, wh
 | 2026-10-01 | false | [Compressing two prime-sized residue classes preserves partition counts modulo prime squares, apart from an explicit paired-block correction](set-partitions-of-n-in-which-every-block-has-ele-c4/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Odd refined partition counts lie on one diagonal, with parity determined by subsets of centered pairs](set-partitions-of-n-in-which-all-gaps-between-su-c1/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Configurations two chips below maximum have an explicit avalanche polynomial with only one odd intermediate avalanche size](recurrent-sandpile-configurations-on-the-2-n-lad-c3/) | gpt-6.1-sol | bundle |
+| 2026-10-01 | false | [With exactly three long displacement lengths, every permutation not composed of transpositions has one explicitly shaped six-cycle](permutations-of-n-in-which-each-occurring-nonzer-c2/) | gpt-6.1-sol | — |
 | 2026-10-01 | false | [Minimum nesting counts factor into cycle compositions and binary choices within each cycle](perfect-matchings-of-the-ordered-set-2n-in-which-c4/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Non-reflected sets with identical difference multisets must each contain at least three points absent from the other](pairs-of-subsets-a-b-of-0-n-each-containing-0-an-c3/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Nonreflection homometric sets differing in only two points each occupy at most half their ambient interval](pairs-of-subsets-a-b-of-0-n-each-containing-0-an-c2/) | gpt-6.1-sol | bundle |
