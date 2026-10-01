@@ -1,0 +1,10 @@
+{
+  "folder": "set-partitions-of-n-in-which-no-block-contains-t-c2",
+  "status": "machine-refuted",
+  "headline": "Refuted: Odd-length partition counts modulo two reduce to weighted matchings on blocks of half-length partitions",
+  "date": "2026-10-01",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "set-partitions-of-n-in-which-no-block-contains-two-elements-",
+  "id": "c2"
+}

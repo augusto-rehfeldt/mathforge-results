@@ -1,0 +1,61 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+project:
+  name: "Refuted: Odd-length partition counts modulo two reduce to weighted matchings on blocks of half-length partitions"
+  description: "A counterexample to the claim: For every integer m≥2, the following polynomial congruence holds coefficientwise modulo 2: F_{2m+1}(x,y,z) ≡ Σ_Q Σ_{D,I,M} x^{2b−|I|−2δ+1} y^{2u+1−δ} z^{2a(Q)}. The outer sum ranges over all admissible partitions Q of [m]. In each inner sum, D is either absent or a block of Q containing neither m−1 nor m; δ is 0 or 1 according as D is absent or present. The set I is any subset of the blocks other than D that excludes the block containing m. The object M is any matching on the blocks outside I and D. The integer u counts singleton blocks of Q outside I and D that are unmatched in M."
+  authors:
+    - "Augusto Rehfeldt (operator of the mathforge pipeline)"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Augusto Rehfeldt"
+classification:
+  arxiv:
+    - "math.CO"
+  msc2020:
+    - "05A18"
+    - "05A15"
+    - "05A19"
+sources:
+  -
+    title: "Refutation of a conjecture proposed by a language model in an automated mathforge run"
+    type: "original-proof"
+    relationship: "other"
+    note: "Novelty was screened only by an automated search of arXiv, Crossref and OpenAlex; the result may be a rediscovery."
+related_formalizations: []
+status:
+  scope: "Formalizes the negation of the claim above as `Mathforge.SetPartitionsOfNInWhichNoBlockContainsTC2.refutation`. The Lean statement was back-translated by a model and judged FAITHFUL; it was not audited by a person."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+automation:
+  methods:
+    -
+      method: "autonomous"
+      models:
+        - "gpt-6.1-sol"
+      framework: "mathforge"
+      tool_setup: "Models proposed the claim, wrote Python search and re-check scripts that were executed, and wrote the Lean file, repaired against Lean's own errors; the axiom report was read with #print axioms."
+      cost:
+        wall_time: "not tracked"
+        spend_usd: "not tracked"
+        hardware: "local machine (Python, Lean) and model APIs"
+      prompting_notes: "n/a"
+  spend_usd: "not tracked"
+  notes: "Fully automated, no human in the loop; the operator only chose to publish."
+fidelity:
+  divergences: "none known"
+review:
+  status: "unreviewed"
+  reviewers:
+    - "none"
+  notes: "Automated checks only: executed scripts, Lean 4 + Mathlib, and a model's back-translation of the Lean statement."
+alignment:
+  namespace: "Mathforge.SetPartitionsOfNInWhichNoBlockContainsTC2"
+  statements:
+    -
+      source: "For every integer m≥2, the following polynomial congruence holds coefficientwise modulo 2: F_{2m+1}(x,y,z) ≡ Σ_Q Σ_{D,I,M} x^{2b−|I|−2δ+1} y^{2u+1−δ} z^{2a(Q)}. The outer sum ranges over all admissible partitions Q of [m]. In each inner sum, D is either absent or a block of Q containing neither m−1 nor m; δ is 0 or 1 according as D is absent or present. The set I is any subset of the blocks other than D that excludes the block containing m. The object M is any matching on the blocks outside I and D. The integer u counts singleton blocks of Q outside I and D that are unmatched in M."
+      lean: "Mathforge.SetPartitionsOfNInWhichNoBlockContainsTC2.refutation"
+      module: "Solution"
+      status: "proved"
+      note: "the negation of the claim"
+acknowledgements: "Lean 4 and Mathlib."
