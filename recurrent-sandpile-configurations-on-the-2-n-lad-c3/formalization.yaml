@@ -1,0 +1,62 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+project:
+  name: "Refuted: Configurations two chips below maximum have an explicit avalanche polynomial with only one odd intermediate avalanche size"
+  description: "A counterexample to the claim: For every integer n ≥ 2, let R_n be the recurrent stable configurations on the ladder defined below. Then Σ_{η∈R_n: |η|=4n−2} z^{A(η)} = 2n + z + Σ_{j=1}^{n−1} z^{2j} + 3z^{2n−1} + (2n²−2n−3)z^{2n}, as an identity of polynomials in the indeterminate z."
+  authors:
+    - "Augusto Rehfeldt (operator of the mathforge pipeline)"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Augusto Rehfeldt"
+classification:
+  arxiv:
+    - "math.CO"
+    - "math.PR"
+  msc2020:
+    - "05C57"
+    - "05A15"
+    - "82C27"
+sources:
+  -
+    title: "Refutation of a conjecture proposed by a language model in an automated mathforge run"
+    type: "original-proof"
+    relationship: "other"
+    note: "Novelty was screened only by an automated search of arXiv, Crossref and OpenAlex; the result may be a rediscovery."
+related_formalizations: []
+status:
+  scope: "Formalizes the negation of the claim above as `Mathforge.RecurrentSandpileConfigurationsOnThe2NLadC3.Ladder.refutation`. The Lean statement was back-translated by a model and judged FAITHFUL; it was not audited by a person."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+automation:
+  methods:
+    -
+      method: "autonomous"
+      models:
+        - "gpt-6.1-sol"
+      framework: "mathforge"
+      tool_setup: "Models proposed the claim, wrote Python search and re-check scripts that were executed, and wrote the Lean file, repaired against Lean's own errors; the axiom report was read with #print axioms."
+      cost:
+        wall_time: "not tracked"
+        spend_usd: "not tracked"
+        hardware: "local machine (Python, Lean) and model APIs"
+      prompting_notes: "n/a"
+  spend_usd: "not tracked"
+  notes: "Fully automated, no human in the loop; the operator only chose to publish."
+fidelity:
+  divergences: "none known"
+review:
+  status: "unreviewed"
+  reviewers:
+    - "none"
+  notes: "Automated checks only: executed scripts, Lean 4 + Mathlib, and a model's back-translation of the Lean statement."
+alignment:
+  namespace: "Mathforge.RecurrentSandpileConfigurationsOnThe2NLadC3"
+  statements:
+    -
+      source: "For every integer n ≥ 2, let R_n be the recurrent stable configurations on the ladder defined below. Then Σ_{η∈R_n: |η|=4n−2} z^{A(η)} = 2n + z + Σ_{j=1}^{n−1} z^{2j} + 3z^{2n−1} + (2n²−2n−3)z^{2n}, as an identity of polynomials in the indeterminate z."
+      lean: "Mathforge.RecurrentSandpileConfigurationsOnThe2NLadC3.Ladder.refutation"
+      module: "Solution"
+      status: "proved"
+      note: "the negation of the claim"
+acknowledgements: "Lean 4 and Mathlib."

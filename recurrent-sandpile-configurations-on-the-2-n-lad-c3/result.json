@@ -1,0 +1,10 @@
+{
+  "folder": "recurrent-sandpile-configurations-on-the-2-n-lad-c3",
+  "status": "machine-refuted",
+  "headline": "Refuted: Configurations two chips below maximum have an explicit avalanche polynomial with only one odd intermediate avalanche size",
+  "date": "2026-10-01",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "recurrent-sandpile-configurations-on-the-2-n-ladder-with-eac",
+  "id": "c3"
+}
