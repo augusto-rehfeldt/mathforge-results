@@ -1,0 +1,10 @@
+{
+  "folder": "pairs-of-subsets-a-b-of-0-n-each-containing-0-an-c2",
+  "status": "machine-refuted",
+  "headline": "Refuted: Nonreflection homometric sets differing in only two points each occupy at most half their ambient interval",
+  "date": "2026-10-01",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "pairs-of-subsets-a-b-of-0-n-each-containing-0-and-n-with-ide",
+  "id": "c2"
+}
