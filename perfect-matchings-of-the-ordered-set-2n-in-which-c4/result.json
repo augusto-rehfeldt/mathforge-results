@@ -1,0 +1,10 @@
+{
+  "folder": "perfect-matchings-of-the-ordered-set-2n-in-which-c4",
+  "status": "machine-refuted",
+  "headline": "Refuted: Minimum nesting counts factor into cycle compositions and binary choices within each cycle",
+  "date": "2026-10-01",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "perfect-matchings-of-the-ordered-set-2n-in-which-every-arc-c",
+  "id": "c4"
+}
