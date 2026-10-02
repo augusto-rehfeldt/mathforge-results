@@ -1,0 +1,10 @@
+{
+  "folder": "ternary-words-with-exactly-two-abelian-square-oc-c2",
+  "status": "machine-refuted",
+  "headline": "Refuted: A ternary word with exactly two crossing abelian squares has length plus overlap at most fifteen",
+  "date": "2026-10-02",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "ternary-words-with-exactly-two-abelian-square-occurrences-fa",
+  "id": "c2"
+}

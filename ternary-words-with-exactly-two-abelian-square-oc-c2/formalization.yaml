@@ -1,0 +1,60 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+project:
+  name: "Refuted: A ternary word with exactly two crossing abelian squares has length plus overlap at most fifteen"
+  description: "A counterexample to the claim: For every integer n ≥ 1 and every word w in {0,1,2}^n, suppose w has exactly two abelian-square occurrences, with intervals [a,a+2p−1] and [b,b+2q−1], where a,b,p,q are positive integers satisfying 1 ≤ a < b ≤ a+2p−1 < b+2q−1 ≤ n. Then n + a + 2p − b ≤ 15."
+  authors:
+    - "Augusto Rehfeldt (operator of the mathforge pipeline)"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Augusto Rehfeldt"
+classification:
+  arxiv:
+    - "math.CO"
+  msc2020:
+    - "68R15"
+    - "05D10"
+sources:
+  -
+    title: "Refutation of a conjecture proposed by a language model in an automated mathforge run"
+    type: "original-proof"
+    relationship: "other"
+    note: "Novelty was screened only by an automated search of arXiv, Crossref and OpenAlex; the result may be a rediscovery."
+related_formalizations: []
+status:
+  scope: "Formalizes the negation of the claim above as `Mathforge.TernaryWordsWithExactlyTwoAbelianSquareOcC2.refutation`. The Lean statement was back-translated by a model and judged FAITHFUL; it was not audited by a person."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+automation:
+  methods:
+    -
+      method: "autonomous"
+      models:
+        - "gpt-6.1-sol"
+      framework: "mathforge"
+      tool_setup: "Models proposed the claim, wrote Python search and re-check scripts that were executed, and wrote the Lean file, repaired against Lean's own errors; the axiom report was read with #print axioms."
+      cost:
+        wall_time: "not tracked"
+        spend_usd: "not tracked"
+        hardware: "local machine (Python, Lean) and model APIs"
+      prompting_notes: "n/a"
+  spend_usd: "not tracked"
+  notes: "Fully automated, no human in the loop; the operator only chose to publish."
+fidelity:
+  divergences: "none known"
+review:
+  status: "unreviewed"
+  reviewers:
+    - "none"
+  notes: "Automated checks only: executed scripts, Lean 4 + Mathlib, and a model's back-translation of the Lean statement."
+alignment:
+  namespace: "Mathforge.TernaryWordsWithExactlyTwoAbelianSquareOcC2"
+  statements:
+    -
+      source: "For every integer n ≥ 1 and every word w in {0,1,2}^n, suppose w has exactly two abelian-square occurrences, with intervals [a,a+2p−1] and [b,b+2q−1], where a,b,p,q are positive integers satisfying 1 ≤ a < b ≤ a+2p−1 < b+2q−1 ≤ n. Then n + a + 2p − b ≤ 15."
+      lean: "Mathforge.TernaryWordsWithExactlyTwoAbelianSquareOcC2.refutation"
+      module: "Solution"
+      status: "proved"
+      note: "the negation of the claim"
+acknowledgements: "Lean 4 and Mathlib."
