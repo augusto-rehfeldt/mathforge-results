@@ -1,0 +1,61 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+project:
+  name: "Refuted: Equal-height triple contacts permit middle-block reversal, preserving areas while exchanging pair-only shared peaks and valleys"
+  description: "A counterexample to the claim: Conjecture: For every integer n≥2, integers 1≤a<b≤2n−1, integer H≥0, nonnegative integers A and B, subsets L and U of {1,…,2n−1}\\{a,b}, and nonnegative integers p12,v12,p23,v23, the following two finite sets have equal cardinality. The first consists of ordered Dyck triples with exactly two internal triple contacts, at a and b, both at height H; adjacent areas A and B; pair-only contact sets L and U; and middle-block shared-peak and shared-valley counts (p12,v12,p23,v23). The second has the same requirements except that its pair-only contact sets are R(L) and R(U), and its four counts are (v12,p12,v23,p23)."
+  authors:
+    - "Augusto Rehfeldt (operator of the mathforge pipeline)"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Augusto Rehfeldt"
+classification:
+  arxiv:
+    - "math.CO"
+  msc2020:
+    - "05A19"
+    - "05A15"
+    - "05A05"
+sources:
+  -
+    title: "Refutation of a conjecture proposed by a language model in an automated mathforge run"
+    type: "original-proof"
+    relationship: "other"
+    note: "Novelty was screened only by an automated search of arXiv, Crossref and OpenAlex; the result may be a rediscovery."
+related_formalizations: []
+status:
+  scope: "Formalizes the negation of the claim above as `Mathforge.OrderedTriplesOfDyckPathsOfTheSameSemileC2.DyckCounterexample.refutation`. The Lean statement was back-translated by a model and judged FAITHFUL; it was not audited by a person."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+automation:
+  methods:
+    -
+      method: "autonomous"
+      models:
+        - "gpt-6.1-sol"
+      framework: "mathforge"
+      tool_setup: "Models proposed the claim, wrote Python search and re-check scripts that were executed, and wrote the Lean file, repaired against Lean's own errors; the axiom report was read with #print axioms."
+      cost:
+        wall_time: "not tracked"
+        spend_usd: "not tracked"
+        hardware: "local machine (Python, Lean) and model APIs"
+      prompting_notes: "n/a"
+  spend_usd: "not tracked"
+  notes: "Fully automated, no human in the loop; the operator only chose to publish."
+fidelity:
+  divergences: "none known"
+review:
+  status: "unreviewed"
+  reviewers:
+    - "none"
+  notes: "Automated checks only: executed scripts, Lean 4 + Mathlib, and a model's back-translation of the Lean statement."
+alignment:
+  namespace: "Mathforge.OrderedTriplesOfDyckPathsOfTheSameSemileC2"
+  statements:
+    -
+      source: "Conjecture: For every integer n≥2, integers 1≤a<b≤2n−1, integer H≥0, nonnegative integers A and B, subsets L and U of {1,…,2n−1}\\{a,b}, and nonnegative integers p12,v12,p23,v23, the following two finite sets have equal cardinality. The first consists of ordered Dyck triples with exactly two internal triple contacts, at a and b, both at height H; adjacent areas A and B; pair-only contact sets L and U; and middle-block shared-peak and shared-valley counts (p12,v12,p23,v23). The second has the same requirements except that its pair-only contact sets are R(L) and R(U), and its four counts are (v12,p12,v23,p23)."
+      lean: "Mathforge.OrderedTriplesOfDyckPathsOfTheSameSemileC2.DyckCounterexample.refutation"
+      module: "Solution"
+      status: "proved"
+      note: "the negation of the claim"
+acknowledgements: "Lean 4 and Mathlib."

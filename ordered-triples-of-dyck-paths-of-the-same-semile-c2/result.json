@@ -1,0 +1,10 @@
+{
+  "folder": "ordered-triples-of-dyck-paths-of-the-same-semile-c2",
+  "status": "machine-refuted",
+  "headline": "Refuted: Equal-height triple contacts permit middle-block reversal, preserving areas while exchanging pair-only shared peaks and valleys",
+  "date": "2026-10-02",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "ordered-triples-of-dyck-paths-of-the-same-semilength-such-th",
+  "id": "c2"
+}
