@@ -1,0 +1,61 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+project:
+  name: "Refuted: A permutation whose 132-incidence graph is a tree consists of an initial minimum followed by increasing reversed pairs"
+  description: "A counterexample to the claim: For every integer n ≥ 1, let T_n be the set of permutations of {1,…,n} in which every entry belongs to a 132-occurrence and the entry–occurrence incidence graph is a tree. Conjecturally, T_n is empty unless n = 2m+1 for an integer m ≥ 1, and T_{2m+1} consists exactly of the permutation (1,3,2,5,4,…,2m+1,2m). Consequently, for every m ≥ 1, the polynomial sum over π in T_{2m+1} of q^{inv(π)}t^{des(π)} equals q^m t^m. For m ≥ 2, deleting the two entries belonging exclusively to any one occurrence and then standardizing gives the unique member of T_{2m−1}, decreasing both inversion number and descent number by exactly one."
+  authors:
+    - "Augusto Rehfeldt (operator of the mathforge pipeline)"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Augusto Rehfeldt"
+classification:
+  arxiv:
+    - "math.CO"
+  msc2020:
+    - "05A05"
+    - "05A15"
+    - "05C05"
+sources:
+  -
+    title: "Refutation of a conjecture proposed by a language model in an automated mathforge run"
+    type: "original-proof"
+    relationship: "other"
+    note: "Novelty was screened only by an automated search of arXiv, Crossref and OpenAlex; the result may be a rediscovery."
+related_formalizations: []
+status:
+  scope: "Formalizes the negation of the claim above as `Mathforge.PermutationsInWhichEveryEntryBelongsToA1C1.refutation`. The Lean statement was back-translated by a model and judged FAITHFUL; it was not audited by a person."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+automation:
+  methods:
+    -
+      method: "autonomous"
+      models:
+        - "gpt-6.1-sol"
+      framework: "mathforge"
+      tool_setup: "Models proposed the claim, wrote Python search and re-check scripts that were executed, and wrote the Lean file, repaired against Lean's own errors; the axiom report was read with #print axioms."
+      cost:
+        wall_time: "not tracked"
+        spend_usd: "not tracked"
+        hardware: "local machine (Python, Lean) and model APIs"
+      prompting_notes: "n/a"
+  spend_usd: "not tracked"
+  notes: "Fully automated, no human in the loop; the operator only chose to publish."
+fidelity:
+  divergences: "none known"
+review:
+  status: "unreviewed"
+  reviewers:
+    - "none"
+  notes: "Automated checks only: executed scripts, Lean 4 + Mathlib, and a model's back-translation of the Lean statement."
+alignment:
+  namespace: "Mathforge.PermutationsInWhichEveryEntryBelongsToA1C1"
+  statements:
+    -
+      source: "For every integer n ≥ 1, let T_n be the set of permutations of {1,…,n} in which every entry belongs to a 132-occurrence and the entry–occurrence incidence graph is a tree. Conjecturally, T_n is empty unless n = 2m+1 for an integer m ≥ 1, and T_{2m+1} consists exactly of the permutation (1,3,2,5,4,…,2m+1,2m). Consequently, for every m ≥ 1, the polynomial sum over π in T_{2m+1} of q^{inv(π)}t^{des(π)} equals q^m t^m. For m ≥ 2, deleting the two entries belonging exclusively to any one occurrence and then standardizing gives the unique member of T_{2m−1}, decreasing both inversion number and descent number by exactly one."
+      lean: "Mathforge.PermutationsInWhichEveryEntryBelongsToA1C1.refutation"
+      module: "Solution"
+      status: "proved"
+      note: "the negation of the claim"
+acknowledgements: "Lean 4 and Mathlib."

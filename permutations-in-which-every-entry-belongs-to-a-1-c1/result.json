@@ -1,0 +1,10 @@
+{
+  "folder": "permutations-in-which-every-entry-belongs-to-a-1-c1",
+  "status": "machine-refuted",
+  "headline": "Refuted: A permutation whose 132-incidence graph is a tree consists of an initial minimum followed by increasing reversed pairs",
+  "date": "2026-10-02",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "permutations-in-which-every-entry-belongs-to-a-132-pattern-o",
+  "id": "c1"
+}
