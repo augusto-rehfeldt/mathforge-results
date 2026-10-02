@@ -1,0 +1,10 @@
+{
+  "folder": "numerical-semigroups-of-multiplicity-m-whose-ap--c4",
+  "status": "machine-refuted",
+  "headline": "Refuted: Lowering a height-three maximum replaces it by reflected minimal generators not dominated by the other maximum",
+  "date": "2026-10-02",
+  "models": "gpt-6.1-sol",
+  "palomar": false,
+  "run": "numerical-semigroups-of-multiplicity-m-whose-ap-ry-represent",
+  "id": "c4"
+}
