@@ -1,0 +1,62 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+project:
+  name: "Refuted: Period-two words containing consecutive zeros decompose into four block types, yielding an explicit weight-refined necklace gluing formula"
+  description: "A counterexample to the claim: Conjecture: For every integer n≥3, a cyclic binary word x of length n containing consecutive zeros has exact temporal period two if and only if cutting at every maximal zero run of length at least two leaves blocks belonging to {1,11,111,101}, with at least one block belonging to {111,101}. Moreover, for all integers k≥1, a≥0, b≥0 and c≥1, let M(n,k,a,b,c) be the sum of n/s(N) over all binary necklaces N of length n whose representatives x have exact temporal period two, exactly k maximal zero runs of length at least two, unordered weight pair {a,b}, and exactly c changed positions. Then M(n,k,a,b,c) equals (n/k) times the coefficient of t^n u^a v^b q^c in P^k when a=b, and equals (n/k) times the sum of the coefficients of t^n u^a v^b q^c and t^n u^b v^a q^c in P^k when a≠b, where P=(t²/(1−t))(tuv+t²u²v²+t³q(u³v²+u²v³))."
+  authors:
+    - "Augusto Rehfeldt (operator of the mathforge pipeline)"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Augusto Rehfeldt"
+classification:
+  arxiv:
+    - "math.CO"
+    - "math.DS"
+  msc2020:
+    - "05A15"
+    - "37B15"
+    - "05A05"
+sources:
+  -
+    title: "Refutation of a conjecture proposed by a language model in an automated mathforge run"
+    type: "original-proof"
+    relationship: "other"
+    note: "Novelty was screened only by an automated search of arXiv, Crossref and OpenAlex; the result may be a rediscovery."
+related_formalizations: []
+status:
+  scope: "Formalizes the negation of the claim above as `Mathforge.BinaryNecklacesOfExactTemporalPeriodTwoUnC1.refutation`. The Lean statement was back-translated by a model and judged FAITHFUL; it was not audited by a person."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+automation:
+  methods:
+    -
+      method: "autonomous"
+      models:
+        - "gpt-6.1-sol"
+      framework: "mathforge"
+      tool_setup: "Models proposed the claim, wrote Python search and re-check scripts that were executed, and wrote the Lean file, repaired against Lean's own errors; the axiom report was read with #print axioms."
+      cost:
+        wall_time: "not tracked"
+        spend_usd: "not tracked"
+        hardware: "local machine (Python, Lean) and model APIs"
+      prompting_notes: "n/a"
+  spend_usd: "not tracked"
+  notes: "Fully automated, no human in the loop; the operator only chose to publish."
+fidelity:
+  divergences: "none known"
+review:
+  status: "unreviewed"
+  reviewers:
+    - "none"
+  notes: "Automated checks only: executed scripts, Lean 4 + Mathlib, and a model's back-translation of the Lean statement."
+alignment:
+  namespace: "Mathforge.BinaryNecklacesOfExactTemporalPeriodTwoUnC1"
+  statements:
+    -
+      source: "Conjecture: For every integer n≥3, a cyclic binary word x of length n containing consecutive zeros has exact temporal period two if and only if cutting at every maximal zero run of length at least two leaves blocks belonging to {1,11,111,101}, with at least one block belonging to {111,101}. Moreover, for all integers k≥1, a≥0, b≥0 and c≥1, let M(n,k,a,b,c) be the sum of n/s(N) over all binary necklaces N of length n whose representatives x have exact temporal period two, exactly k maximal zero runs of length at least two, unordered weight pair {a,b}, and exactly c changed positions. Then M(n,k,a,b,c) equals (n/k) times the coefficient of t^n u^a v^b q^c in P^k when a=b, and equals (n/k) times the sum of the coefficients of t^n u^a v^b q^c and t^n u^b v^a q^c in P^k when a≠b, where P=(t²/(1−t))(tuv+t²u²v²+t³q(u³v²+u²v³))."
+      lean: "Mathforge.BinaryNecklacesOfExactTemporalPeriodTwoUnC1.refutation"
+      module: "Solution"
+      status: "proved"
+      note: "the negation of the claim"
+acknowledgements: "Lean 4 and Mathlib."

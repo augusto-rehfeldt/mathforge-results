@@ -1,0 +1,10 @@
+{
+  "folder": "binary-necklaces-of-exact-temporal-period-two-un-c1",
+  "status": "machine-refuted",
+  "headline": "Refuted: Period-two words containing consecutive zeros decompose into four block types, yielding an explicit weight-refined necklace gluing formula",
+  "date": "2026-10-02",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "binary-necklaces-of-exact-temporal-period-two-under-the-cycl",
+  "id": "c1"
+}
