@@ -1,0 +1,10 @@
+{
+  "folder": "binary-words-having-exactly-two-occurrences-of-s-c2",
+  "status": "machine-refuted",
+  "headline": "Refuted: The rightmost square determines exactly how many further letters preserve the two overlapping square occurrences",
+  "date": "2026-10-02",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "binary-words-having-exactly-two-occurrences-of-square-factor",
+  "id": "c2"
+}

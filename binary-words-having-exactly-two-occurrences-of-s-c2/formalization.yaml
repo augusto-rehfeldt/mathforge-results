@@ -1,0 +1,60 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+project:
+  name: "Refuted: The rightmost square determines exactly how many further letters preserve the two overlapping square occurrences"
+  description: "A counterexample to the claim: For every integer n ≥ 1 and every binary word w of length n having exactly two square occurrences whose intervals overlap and neither contains the other, let b be the final position of the occurrence that starts later, let r be its root length, and put t = n − b. Then r belongs to {1,2}. If r = 1, then 0 ≤ t ≤ 2 and, for every integer k ≥ 0, exactly one binary word x of length k makes wx have exactly two square occurrences when k ≤ 2 − t, and no such x exists when k > 2 − t. If r = 2, then t = 0 and no nonempty binary word x makes wx have exactly two square occurrences."
+  authors:
+    - "Augusto Rehfeldt (operator of the mathforge pipeline)"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Augusto Rehfeldt"
+classification:
+  arxiv:
+    - "math.CO"
+  msc2020:
+    - "68R15"
+    - "05A05"
+sources:
+  -
+    title: "Refutation of a conjecture proposed by a language model in an automated mathforge run"
+    type: "original-proof"
+    relationship: "other"
+    note: "Novelty was screened only by an automated search of arXiv, Crossref and OpenAlex; the result may be a rediscovery."
+related_formalizations: []
+status:
+  scope: "Formalizes the negation of the claim above as `Mathforge.BinaryWordsHavingExactlyTwoOccurrencesOfSC2.BinarySquares.refutation`. The Lean statement was back-translated by a model and judged FAITHFUL; it was not audited by a person."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+automation:
+  methods:
+    -
+      method: "autonomous"
+      models:
+        - "gpt-6.1-sol"
+      framework: "mathforge"
+      tool_setup: "Models proposed the claim, wrote Python search and re-check scripts that were executed, and wrote the Lean file, repaired against Lean's own errors; the axiom report was read with #print axioms."
+      cost:
+        wall_time: "not tracked"
+        spend_usd: "not tracked"
+        hardware: "local machine (Python, Lean) and model APIs"
+      prompting_notes: "n/a"
+  spend_usd: "not tracked"
+  notes: "Fully automated, no human in the loop; the operator only chose to publish."
+fidelity:
+  divergences: "none known"
+review:
+  status: "unreviewed"
+  reviewers:
+    - "none"
+  notes: "Automated checks only: executed scripts, Lean 4 + Mathlib, and a model's back-translation of the Lean statement."
+alignment:
+  namespace: "Mathforge.BinaryWordsHavingExactlyTwoOccurrencesOfSC2"
+  statements:
+    -
+      source: "For every integer n ≥ 1 and every binary word w of length n having exactly two square occurrences whose intervals overlap and neither contains the other, let b be the final position of the occurrence that starts later, let r be its root length, and put t = n − b. Then r belongs to {1,2}. If r = 1, then 0 ≤ t ≤ 2 and, for every integer k ≥ 0, exactly one binary word x of length k makes wx have exactly two square occurrences when k ≤ 2 − t, and no such x exists when k > 2 − t. If r = 2, then t = 0 and no nonempty binary word x makes wx have exactly two square occurrences."
+      lean: "Mathforge.BinaryWordsHavingExactlyTwoOccurrencesOfSC2.BinarySquares.refutation"
+      module: "Solution"
+      status: "proved"
+      note: "the negation of the claim"
+acknowledgements: "Lean 4 and Mathlib."

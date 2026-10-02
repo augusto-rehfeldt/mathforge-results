@@ -4,10 +4,11 @@ Results from [mathforge](https://github.com/augusto-rehfeldt/mathforge), a fully
 
 Each folder holds the write-up (`README.md`), the scripts that were run, and, where the split succeeded, a Lake project ready for the [Palomar registry](https://palomar-registry.org/) (`Challenge.lean`, `Solution.lean`, `comparator.json`, `formalization.yaml`).
 
-18 result(s).
+19 result(s).
 
 | Date | Verdict | Claim | Models | Palomar |
 | --- | --- | --- | --- | --- |
+| 2026-10-02 | false | [The rightmost square determines exactly how many further letters preserve the two overlapping square occurrences](binary-words-having-exactly-two-occurrences-of-s-c2/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Occupied vertices equal twice enclosed vacancies plus six per cycle, corrected by enclosed squares and four-vertex cycles](vertex-subsets-of-the-4-n-rectangular-grid-whose-c1/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Every strongly connected tournament with edge-triangle capacity two admits a connectivity-preserving vertex deletion of weighted triangle cost at most eight](tournaments-in-which-every-directed-edge-belongs-c4/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Nine boundary bits and one binary subspace determine every rank-refined extension of a bandwidth-three square-zero matrix](strictly-upper-triangular-matrices-a-over-f-with-c1/) | gpt-6.1-sol | bundle |
