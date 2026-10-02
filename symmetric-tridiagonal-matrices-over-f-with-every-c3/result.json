@@ -1,0 +1,10 @@
+{
+  "folder": "symmetric-tridiagonal-matrices-over-f-with-every-c3",
+  "status": "machine-refuted",
+  "headline": "Refuted: Exactly nine boundary types determine both generalized kernel dimensions of every mirrored concatenation",
+  "date": "2026-10-02",
+  "models": "gpt-6.1-sol",
+  "palomar": false,
+  "run": "symmetric-tridiagonal-matrices-over-f-with-every-superdiagon",
+  "id": "c3"
+}
