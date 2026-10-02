@@ -1,0 +1,10 @@
+{
+  "folder": "pairs-of-polynomials-p-q-z-x-with-coefficients-i-c4",
+  "status": "machine-refuted",
+  "headline": "Refuted: Every two-collision polynomial pair splits into independently movable collision blocks unless its collisions form a two-by-three arithmetic core",
+  "date": "2026-10-02",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "pairs-of-polynomials-p-q-z-x-with-coefficients-in-0-1-consta",
+  "id": "c4"
+}

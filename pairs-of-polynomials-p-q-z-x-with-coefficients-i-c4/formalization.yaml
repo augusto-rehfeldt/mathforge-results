@@ -1,0 +1,61 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+project:
+  name: "Refuted: Every two-collision polynomial pair splits into independently movable collision blocks unless its collisions form a two-by-three arithmetic core"
+  description: "A counterexample to the claim: For every pair of finite sets A,B of nonnegative integers containing 0, suppose the number r(s) of pairs (a,b) in A×B with a+b=s is at most 2 for every nonnegative integer s, and equals 2 at exactly two integers. Then exactly one of the following alternatives holds. (I) After possibly exchanging A and B, there is a partition A=U∪V into disjoint nonempty sets with 0 in U such that U+B and V+B are disjoint and each of the two restricted representation functions has exactly one coefficient equal to 2. Write their doubled exponents as c_U and c_V. For every integer T>max(A)+max(B), the supports A_T=U∪{v+T:v in V} and B have sizes |A| and |B|, their product has exactly two doubled exponents c_U and c_V+T, and the separation of these exponents is T+c_V−c_U. (II) After possibly exchanging A and B, there exist nonnegative integers u,v and a positive integer d such that {u,u+d}⊆A and {v,v+d,v+2d}⊆B, and the complete set of pairs participating in doubled coefficients is {(u,v+d),(u+d,v),(u,v+2d),(u+d,v+d)}. In alternative (II), the doubled exponents have separation d and no partition of either support satisfies the splitting conditions in alternative (I)."
+  authors:
+    - "Augusto Rehfeldt (operator of the mathforge pipeline)"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Augusto Rehfeldt"
+classification:
+  arxiv:
+    - "math.CO"
+    - "math.NT"
+  msc2020:
+    - "11B13"
+    - "05A05"
+sources:
+  -
+    title: "Refutation of a conjecture proposed by a language model in an automated mathforge run"
+    type: "original-proof"
+    relationship: "other"
+    note: "Novelty was screened only by an automated search of arXiv, Crossref and OpenAlex; the result may be a rediscovery."
+related_formalizations: []
+status:
+  scope: "Formalizes the negation of the claim above as `Mathforge.PairsOfPolynomialsPQZXWithCoefficientsIC4.Counterexample.refutation`. The Lean statement was back-translated by a model and judged FAITHFUL; it was not audited by a person."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+automation:
+  methods:
+    -
+      method: "autonomous"
+      models:
+        - "gpt-6.1-sol"
+      framework: "mathforge"
+      tool_setup: "Models proposed the claim, wrote Python search and re-check scripts that were executed, and wrote the Lean file, repaired against Lean's own errors; the axiom report was read with #print axioms."
+      cost:
+        wall_time: "not tracked"
+        spend_usd: "not tracked"
+        hardware: "local machine (Python, Lean) and model APIs"
+      prompting_notes: "n/a"
+  spend_usd: "not tracked"
+  notes: "Fully automated, no human in the loop; the operator only chose to publish."
+fidelity:
+  divergences: "none known"
+review:
+  status: "unreviewed"
+  reviewers:
+    - "none"
+  notes: "Automated checks only: executed scripts, Lean 4 + Mathlib, and a model's back-translation of the Lean statement."
+alignment:
+  namespace: "Mathforge.PairsOfPolynomialsPQZXWithCoefficientsIC4"
+  statements:
+    -
+      source: "For every pair of finite sets A,B of nonnegative integers containing 0, suppose the number r(s) of pairs (a,b) in A×B with a+b=s is at most 2 for every nonnegative integer s, and equals 2 at exactly two integers. Then exactly one of the following alternatives holds. (I) After possibly exchanging A and B, there is a partition A=U∪V into disjoint nonempty sets with 0 in U such that U+B and V+B are disjoint and each of the two restricted representation functions has exactly one coefficient equal to 2. Write their doubled exponents as c_U and c_V. For every integer T>max(A)+max(B), the supports A_T=U∪{v+T:v in V} and B have sizes |A| and |B|, their product has exactly two doubled exponents c_U and c_V+T, and the separation of these exponents is T+c_V−c_U. (II) After possibly exchanging A and B, there exist nonnegative integers u,v and a positive integer d such that {u,u+d}⊆A and {v,v+d,v+2d}⊆B, and the complete set of pairs participating in doubled coefficients is {(u,v+d),(u+d,v),(u,v+2d),(u+d,v+d)}. In alternative (II), the doubled exponents have separation d and no partition of either support satisfies the splitting conditions in alternative (I)."
+      lean: "Mathforge.PairsOfPolynomialsPQZXWithCoefficientsIC4.Counterexample.refutation"
+      module: "Solution"
+      status: "proved"
+      note: "the negation of the claim"
+acknowledgements: "Lean 4 and Mathlib."
