@@ -1,0 +1,10 @@
+{
+  "folder": "ternary-words-with-exactly-two-abelian-square-oc-c4",
+  "status": "machine-refuted",
+  "headline": "Refuted: Exactly two crossing abelian squares of equal half-length must start at consecutive positions",
+  "date": "2026-10-02",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "ternary-words-with-exactly-two-abelian-square-occurrences-fa",
+  "id": "c4"
+}
