@@ -4,7 +4,7 @@ Results from [mathforge](https://github.com/augusto-rehfeldt/mathforge), a fully
 
 Each folder holds the write-up (`README.md`), the scripts that were run, and, where the split succeeded, a Lake project ready for the [Palomar registry](https://palomar-registry.org/) (`Challenge.lean`, `Solution.lean`, `comparator.json`, `formalization.yaml`).
 
-27 result(s).
+28 result(s).
 
 | Date | Verdict | Claim | Models | Palomar |
 | --- | --- | --- | --- | --- |
@@ -16,6 +16,7 @@ Each folder holds the write-up (`README.md`), the scripts that were run, and, wh
 | 2026-10-02 | false | [Equal-height triple contacts permit middle-block reversal, preserving areas while exchanging pair-only shared peaks and valleys](ordered-triples-of-dyck-paths-of-the-same-semile-c2/) | gpt-6.1-sol | bundle |
 | 2026-10-02 | false | [Lowering a height-three maximum replaces it by reflected minimal generators not dominated by the other maximum](numerical-semigroups-of-multiplicity-m-whose-ap--c4/) | gpt-6.1-sol | — |
 | 2026-10-02 | false | [The rightmost square determines exactly how many further letters preserve the two overlapping square occurrences](binary-words-having-exactly-two-occurrences-of-s-c2/) | gpt-6.1-sol | bundle |
+| 2026-10-02 | false | [Two period-two necklaces can be glued at changed vertices with freely chosen replacement phases and explicit weight corrections](binary-necklaces-of-exact-temporal-period-two-un-c4/) | gpt-6.1-sol | — |
 | 2026-10-02 | false | [Period-two words containing consecutive zeros decompose into four block types, yielding an explicit weight-refined necklace gluing formula](binary-necklaces-of-exact-temporal-period-two-un-c1/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Occupied vertices equal twice enclosed vacancies plus six per cycle, corrected by enclosed squares and four-vertex cycles](vertex-subsets-of-the-4-n-rectangular-grid-whose-c1/) | gpt-6.1-sol | bundle |
 | 2026-10-01 | false | [Every strongly connected tournament with edge-triangle capacity two admits a connectivity-preserving vertex deletion of weighted triangle cost at most eight](tournaments-in-which-every-directed-edge-belongs-c4/) | gpt-6.1-sol | bundle |

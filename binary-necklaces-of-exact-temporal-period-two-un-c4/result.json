@@ -1,0 +1,10 @@
+{
+  "folder": "binary-necklaces-of-exact-temporal-period-two-un-c4",
+  "status": "machine-refuted",
+  "headline": "Refuted: Two period-two necklaces can be glued at changed vertices with freely chosen replacement phases and explicit weight corrections",
+  "date": "2026-10-02",
+  "models": "gpt-6.1-sol",
+  "palomar": false,
+  "run": "binary-necklaces-of-exact-temporal-period-two-under-the-cycl",
+  "id": "c4"
+}
