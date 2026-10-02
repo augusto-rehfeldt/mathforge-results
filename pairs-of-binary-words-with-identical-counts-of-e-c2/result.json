@@ -1,0 +1,10 @@
+{
+  "folder": "pairs-of-binary-words-with-identical-counts-of-e-c2",
+  "status": "machine-refuted",
+  "headline": "Refuted: Every third-order-equivalent binary pair admits a balanced constant-run encoding amplifying its fourth-order discrepancy by at least six",
+  "date": "2026-10-02",
+  "models": "gpt-6.1-sol",
+  "palomar": false,
+  "run": "pairs-of-binary-words-with-identical-counts-of-every-scatter",
+  "id": "c2"
+}

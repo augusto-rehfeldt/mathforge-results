@@ -4,13 +4,14 @@ Results from [mathforge](https://github.com/augusto-rehfeldt/mathforge), a fully
 
 Each folder holds the write-up (`README.md`), the scripts that were run, and, where the split succeeded, a Lake project ready for the [Palomar registry](https://palomar-registry.org/) (`Challenge.lean`, `Solution.lean`, `comparator.json`, `formalization.yaml`).
 
-24 result(s).
+25 result(s).
 
 | Date | Verdict | Claim | Models | Palomar |
 | --- | --- | --- | --- | --- |
 | 2026-10-02 | false | [Exactly two crossing abelian squares of equal half-length must start at consecutive positions](ternary-words-with-exactly-two-abelian-square-oc-c4/) | gpt-6.1-sol | bundle |
 | 2026-10-02 | false | [A ternary word with exactly two crossing abelian squares has length plus overlap at most fifteen](ternary-words-with-exactly-two-abelian-square-oc-c2/) | gpt-6.1-sol | bundle |
 | 2026-10-02 | false | [A permutation whose 132-incidence graph is a tree consists of an initial minimum followed by increasing reversed pairs](permutations-in-which-every-entry-belongs-to-a-1-c1/) | gpt-6.1-sol | bundle |
+| 2026-10-02 | false | [Every third-order-equivalent binary pair admits a balanced constant-run encoding amplifying its fourth-order discrepancy by at least six](pairs-of-binary-words-with-identical-counts-of-e-c2/) | gpt-6.1-sol | — |
 | 2026-10-02 | false | [Equal-height triple contacts permit middle-block reversal, preserving areas while exchanging pair-only shared peaks and valleys](ordered-triples-of-dyck-paths-of-the-same-semile-c2/) | gpt-6.1-sol | bundle |
 | 2026-10-02 | false | [Lowering a height-three maximum replaces it by reflected minimal generators not dominated by the other maximum](numerical-semigroups-of-multiplicity-m-whose-ap--c4/) | gpt-6.1-sol | — |
 | 2026-10-02 | false | [The rightmost square determines exactly how many further letters preserve the two overlapping square occurrences](binary-words-having-exactly-two-occurrences-of-s-c2/) | gpt-6.1-sol | bundle |
