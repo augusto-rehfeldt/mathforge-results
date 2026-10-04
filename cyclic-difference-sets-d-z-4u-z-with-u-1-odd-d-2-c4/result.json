@@ -1,0 +1,10 @@
+{
+  "folder": "cyclic-difference-sets-d-z-4u-z-with-u-1-odd-d-2-c4",
+  "status": "machine-refuted",
+  "headline": "Refuted: Squarefree parameters admit no bounded odd integral perfect sequence of the length forced by a Hadamard quotient",
+  "date": "2026-10-04",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "cyclic-difference-sets-d-z-4u-z-with-u-1-odd-d-2u-u-and-exac",
+  "id": "c4"
+}

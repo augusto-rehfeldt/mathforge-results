@@ -4,10 +4,11 @@ Results from [mathforge](https://github.com/augusto-rehfeldt/mathforge), a fully
 
 Each folder holds the write-up (`README.md`), the scripts that were run, and, where the split succeeded, a Lake project ready for the [Palomar registry](https://palomar-registry.org/) (`Challenge.lean`, `Solution.lean`, `comparator.json`, `formalization.yaml`).
 
-29 result(s).
+30 result(s).
 
 | Date | Verdict | Claim | Models | Palomar |
 | --- | --- | --- | --- | --- |
+| 2026-10-04 | false | [Squarefree parameters admit no bounded odd integral perfect sequence of the length forced by a Hadamard quotient](cyclic-difference-sets-d-z-4u-z-with-u-1-odd-d-2-c4/) | gpt-6.1-sol | bundle |
 | 2026-10-02 | false | [Exactly two crossing abelian squares of equal half-length must start at consecutive positions](ternary-words-with-exactly-two-abelian-square-oc-c4/) | gpt-6.1-sol | bundle |
 | 2026-10-02 | false | [A ternary word with exactly two crossing abelian squares has length plus overlap at most fifteen](ternary-words-with-exactly-two-abelian-square-oc-c2/) | gpt-6.1-sol | bundle |
 | 2026-10-02 | false | [Exactly nine boundary types determine both generalized kernel dimensions of every mirrored concatenation](symmetric-tridiagonal-matrices-over-f-with-every-c3/) | gpt-6.1-sol | — |
