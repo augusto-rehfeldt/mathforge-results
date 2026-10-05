@@ -1,0 +1,10 @@
+{
+  "folder": "synchronizing-deterministic-automata-on-n-states-c2",
+  "status": "machine-refuted",
+  "headline": "Refuted: Reciprocal cross-cycle defects synchronize exactly when their combined offset is coprime to the cycle lengths, within \u010cern\u00fd\u2019s bound",
+  "date": "2026-10-05",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "synchronizing-deterministic-automata-on-n-states-with-two-le",
+  "id": "c2"
+}

@@ -1,0 +1,60 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+project:
+  name: "Refuted: Reciprocal cross-cycle defects synchronize exactly when their combined offset is coprime to the cycle lengths, within Černý’s bound"
+  description: "A counterexample to the claim: For every pair of integers p,q ≥ 2 and every pair of integers r,s with 1 ≤ r < q and 1 ≤ s < p, consider the deterministic automaton with state set Q = {C_0,…,C_{p−1},D_0,…,D_{q−1}} and alphabet {a,b}. Define a(C_i)=C_{(i+1) mod p} and a(D_j)=D_{(j+1) mod q}. Define b(C_0)=D_r and b(D_0)=C_s, and let b fix every other state. This automaton admits a reset word if and only if gcd(p,q,r+s)=1. Whenever this greatest common divisor equals 1, it admits a reset word of length at most (p+q−1)²."
+  authors:
+    - "Augusto Rehfeldt (operator of the mathforge pipeline)"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Augusto Rehfeldt"
+classification:
+  arxiv:
+    - "math.CO"
+  msc2020:
+    - "68Q45"
+    - "05C20"
+sources:
+  -
+    title: "Refutation of a conjecture proposed by a language model in an automated mathforge run"
+    type: "original-proof"
+    relationship: "other"
+    note: "Novelty was screened only by an automated search of arXiv, Crossref and OpenAlex; the result may be a rediscovery."
+related_formalizations: []
+status:
+  scope: "Formalizes the negation of the claim above as `Mathforge.SynchronizingDeterministicAutomataOnNStatesC2.Counterexample.refutation`. The Lean statement was back-translated by a model and judged FAITHFUL; it was not audited by a person."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+automation:
+  methods:
+    -
+      method: "autonomous"
+      models:
+        - "gpt-6.1-sol"
+      framework: "mathforge"
+      tool_setup: "Models proposed the claim, wrote Python search and re-check scripts that were executed, and wrote the Lean file, repaired against Lean's own errors; the axiom report was read with #print axioms."
+      cost:
+        wall_time: "not tracked"
+        spend_usd: "not tracked"
+        hardware: "local machine (Python, Lean) and model APIs"
+      prompting_notes: "n/a"
+  spend_usd: "not tracked"
+  notes: "Fully automated, no human in the loop; the operator only chose to publish."
+fidelity:
+  divergences: "none known"
+review:
+  status: "unreviewed"
+  reviewers:
+    - "none"
+  notes: "Automated checks only: executed scripts, Lean 4 + Mathlib, and a model's back-translation of the Lean statement."
+alignment:
+  namespace: "Mathforge.SynchronizingDeterministicAutomataOnNStatesC2"
+  statements:
+    -
+      source: "For every pair of integers p,q ≥ 2 and every pair of integers r,s with 1 ≤ r < q and 1 ≤ s < p, consider the deterministic automaton with state set Q = {C_0,…,C_{p−1},D_0,…,D_{q−1}} and alphabet {a,b}. Define a(C_i)=C_{(i+1) mod p} and a(D_j)=D_{(j+1) mod q}. Define b(C_0)=D_r and b(D_0)=C_s, and let b fix every other state. This automaton admits a reset word if and only if gcd(p,q,r+s)=1. Whenever this greatest common divisor equals 1, it admits a reset word of length at most (p+q−1)²."
+      lean: "Mathforge.SynchronizingDeterministicAutomataOnNStatesC2.Counterexample.refutation"
+      module: "Solution"
+      status: "proved"
+      note: "the negation of the claim"
+acknowledgements: "Lean 4 and Mathlib."
