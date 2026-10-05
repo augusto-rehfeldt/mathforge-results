@@ -1,0 +1,10 @@
+{
+  "folder": "cubic-graphs-formed-from-two-disjoint-odd-cycles-c2",
+  "status": "machine-refuted",
+  "headline": "Refuted: An even permutation block realizes every parity-compatible boundary state exactly when its matching breaks positional parity",
+  "date": "2026-10-05",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "cubic-graphs-formed-from-two-disjoint-odd-cycles-of-equal-le",
+  "id": "c2"
+}

@@ -1,0 +1,60 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+project:
+  name: "Refuted: An even permutation block realizes every parity-compatible boundary state exactly when its matching breaks positional parity"
+  description: "A counterexample to the claim: For every even integer m ≥ 2 and every permutation π of {1,…,m}, form a graph with vertices u₁,…,uₘ,v₁,…,vₘ, path edges uᵢuᵢ₊₁ and vᵢvᵢ₊₁ for 1 ≤ i < m, matching edges uᵢvπ(i) for 1 ≤ i ≤ m, and four dangling edges incident respectively with u₁,v₁,uₘ,vₘ. The following are equivalent: (i) there exists i such that π(i) and i have different parity; (ii) for every ordered quadruple (A,B,C,D) of two-element subsets of {1,2,3,4,5,6} such that each color belongs to an even number of A,B,C,D, there is an assignment of a two-element color set to every edge, including every dangling edge, whose prescribed dangling-edge sets are respectively A,B,C,D and whose three incident edge sets at every vertex partition {1,2,3,4,5,6}."
+  authors:
+    - "Augusto Rehfeldt (operator of the mathforge pipeline)"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Augusto Rehfeldt"
+classification:
+  arxiv:
+    - "math.CO"
+  msc2020:
+    - "05C15"
+    - "05C70"
+sources:
+  -
+    title: "Refutation of a conjecture proposed by a language model in an automated mathforge run"
+    type: "original-proof"
+    relationship: "other"
+    note: "Novelty was screened only by an automated search of arXiv, Crossref and OpenAlex; the result may be a rediscovery."
+related_formalizations: []
+status:
+  scope: "Formalizes the negation of the claim above as `Mathforge.CubicGraphsFormedFromTwoDisjointOddCyclesC2.refutation`. The Lean statement was back-translated by a model and judged FAITHFUL; it was not audited by a person."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+automation:
+  methods:
+    -
+      method: "autonomous"
+      models:
+        - "gpt-6.1-sol"
+      framework: "mathforge"
+      tool_setup: "Models proposed the claim, wrote Python search and re-check scripts that were executed, and wrote the Lean file, repaired against Lean's own errors; the axiom report was read with #print axioms."
+      cost:
+        wall_time: "not tracked"
+        spend_usd: "not tracked"
+        hardware: "local machine (Python, Lean) and model APIs"
+      prompting_notes: "n/a"
+  spend_usd: "not tracked"
+  notes: "Fully automated, no human in the loop; the operator only chose to publish."
+fidelity:
+  divergences: "none known"
+review:
+  status: "unreviewed"
+  reviewers:
+    - "none"
+  notes: "Automated checks only: executed scripts, Lean 4 + Mathlib, and a model's back-translation of the Lean statement."
+alignment:
+  namespace: "Mathforge.CubicGraphsFormedFromTwoDisjointOddCyclesC2"
+  statements:
+    -
+      source: "For every even integer m ≥ 2 and every permutation π of {1,…,m}, form a graph with vertices u₁,…,uₘ,v₁,…,vₘ, path edges uᵢuᵢ₊₁ and vᵢvᵢ₊₁ for 1 ≤ i < m, matching edges uᵢvπ(i) for 1 ≤ i ≤ m, and four dangling edges incident respectively with u₁,v₁,uₘ,vₘ. The following are equivalent: (i) there exists i such that π(i) and i have different parity; (ii) for every ordered quadruple (A,B,C,D) of two-element subsets of {1,2,3,4,5,6} such that each color belongs to an even number of A,B,C,D, there is an assignment of a two-element color set to every edge, including every dangling edge, whose prescribed dangling-edge sets are respectively A,B,C,D and whose three incident edge sets at every vertex partition {1,2,3,4,5,6}."
+      lean: "Mathforge.CubicGraphsFormedFromTwoDisjointOddCyclesC2.refutation"
+      module: "Solution"
+      status: "proved"
+      note: "the negation of the claim"
+acknowledgements: "Lean 4 and Mathlib."
