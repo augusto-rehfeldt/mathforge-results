@@ -1,0 +1,10 @@
+{
+  "folder": "finite-sets-a-of-positive-integers-with-all-2-a--c3",
+  "status": "machine-refuted",
+  "headline": "Refuted: Every nonoptimal distinct-subset-sum set admits a maximum-reducing replacement of at most half its elements plus one",
+  "date": "2026-10-05",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "finite-sets-a-of-positive-integers-with-all-2-a-subset-sums-",
+  "id": "c3"
+}
