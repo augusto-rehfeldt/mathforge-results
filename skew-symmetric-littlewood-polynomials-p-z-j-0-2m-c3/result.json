@@ -1,0 +1,10 @@
+{
+  "folder": "skew-symmetric-littlewood-polynomials-p-z-j-0-2m-c3",
+  "status": "machine-refuted",
+  "headline": "Refuted: Every skew-symmetric Littlewood sequence stable under parity-block flips has asymptotic merit factor at least four",
+  "date": "2026-10-05",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "skew-symmetric-littlewood-polynomials-p-z-j-0-2m-a-jz-j-with",
+  "id": "c3"
+}
