@@ -1,0 +1,62 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+project:
+  name: "Refuted: Six-word affine blocks admit shift-invariant compatible outer codes with one information bit per block"
+  description: "A counterexample to the claim: For every integer m ≥ 1, there exists a set D ⊆ (F₃ × {0,1})^m of cardinality at least 3·2^m, invariant under the map ((a_j,b_j))_{j=1}^m ↦ ((a_j+1,b_j))_{j=1}^m, with the following property. For every three distinct elements d^(1), d^(2), d^(3) of D, there is an index j ∈ {1,…,m} satisfying one of these two conditions: (i) b_j^(1)=b_j^(2)=b_j^(3) and the three values a_j^(1), a_j^(2), a_j^(3) are pairwise distinct; (ii) exactly two of the three values b_j^(1), b_j^(2), b_j^(3) agree, and the corresponding two values of a are different."
+  authors:
+    - "Augusto Rehfeldt (operator of the mathforge pipeline)"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Augusto Rehfeldt"
+classification:
+  arxiv:
+    - "math.CO"
+    - "math.IT"
+  msc2020:
+    - "94B25"
+    - "05B40"
+    - "05D05"
+sources:
+  -
+    title: "Refutation of a conjecture proposed by a language model in an automated mathforge run"
+    type: "original-proof"
+    relationship: "other"
+    note: "Novelty was screened only by an automated search of arXiv, Crossref and OpenAlex; the result may be a rediscovery."
+related_formalizations: []
+status:
+  scope: "Formalizes the negation of the claim above as `Mathforge.TernaryTrifferentCodesC012ClosedUnderThC1.refutation`. The Lean statement was back-translated by a model and judged FAITHFUL; it was not audited by a person."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+automation:
+  methods:
+    -
+      method: "autonomous"
+      models:
+        - "gpt-6.1-sol"
+      framework: "mathforge"
+      tool_setup: "Models proposed the claim, wrote Python search and re-check scripts that were executed, and wrote the Lean file, repaired against Lean's own errors; the axiom report was read with #print axioms."
+      cost:
+        wall_time: "not tracked"
+        spend_usd: "not tracked"
+        hardware: "local machine (Python, Lean) and model APIs"
+      prompting_notes: "n/a"
+  spend_usd: "not tracked"
+  notes: "Fully automated, no human in the loop; the operator only chose to publish."
+fidelity:
+  divergences: "none known"
+review:
+  status: "unreviewed"
+  reviewers:
+    - "none"
+  notes: "Automated checks only: executed scripts, Lean 4 + Mathlib, and a model's back-translation of the Lean statement."
+alignment:
+  namespace: "Mathforge.TernaryTrifferentCodesC012ClosedUnderThC1"
+  statements:
+    -
+      source: "For every integer m ≥ 1, there exists a set D ⊆ (F₃ × {0,1})^m of cardinality at least 3·2^m, invariant under the map ((a_j,b_j))_{j=1}^m ↦ ((a_j+1,b_j))_{j=1}^m, with the following property. For every three distinct elements d^(1), d^(2), d^(3) of D, there is an index j ∈ {1,…,m} satisfying one of these two conditions: (i) b_j^(1)=b_j^(2)=b_j^(3) and the three values a_j^(1), a_j^(2), a_j^(3) are pairwise distinct; (ii) exactly two of the three values b_j^(1), b_j^(2), b_j^(3) agree, and the corresponding two values of a are different."
+      lean: "Mathforge.TernaryTrifferentCodesC012ClosedUnderThC1.refutation"
+      module: "Solution"
+      status: "proved"
+      note: "the negation of the claim"
+acknowledgements: "Lean 4 and Mathlib."

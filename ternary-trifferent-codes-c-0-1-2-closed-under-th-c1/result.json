@@ -1,0 +1,10 @@
+{
+  "folder": "ternary-trifferent-codes-c-0-1-2-closed-under-th-c1",
+  "status": "machine-refuted",
+  "headline": "Refuted: Six-word affine blocks admit shift-invariant compatible outer codes with one information bit per block",
+  "date": "2026-10-05",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "ternary-trifferent-codes-c-0-1-2-closed-under-the-global-shi",
+  "id": "c1"
+}

@@ -4,10 +4,11 @@ Results from [mathforge](https://github.com/augusto-rehfeldt/mathforge), a fully
 
 Each folder holds the write-up (`README.md`), the scripts that were run, and, where the split succeeded, a Lake project ready for the [Palomar registry](https://palomar-registry.org/) (`Challenge.lean`, `Solution.lean`, `comparator.json`, `formalization.yaml`).
 
-34 result(s).
+35 result(s).
 
 | Date | Verdict | Claim | Models | Palomar |
 | --- | --- | --- | --- | --- |
+| 2026-10-05 | false | [Six-word affine blocks admit shift-invariant compatible outer codes with one information bit per block](ternary-trifferent-codes-c-0-1-2-closed-under-th-c1/) | gpt-6.1-sol | bundle |
 | 2026-10-05 | false | [Reciprocal cross-cycle defects synchronize exactly when their combined offset is coprime to the cycle lengths, within Černý’s bound](synchronizing-deterministic-automata-on-n-states-c2/) | gpt-6.1-sol | bundle |
 | 2026-10-05 | false | [Every two-element extension of a superincreasing core can be compressed using one of its first two signed-sum holes](finite-sets-a-of-positive-integers-with-all-2-a--c4/) | gpt-6.1-sol | bundle |
 | 2026-10-05 | false | [Every nonoptimal distinct-subset-sum set admits a maximum-reducing replacement of at most half its elements plus one](finite-sets-a-of-positive-integers-with-all-2-a--c3/) | gpt-6.1-sol | bundle |
