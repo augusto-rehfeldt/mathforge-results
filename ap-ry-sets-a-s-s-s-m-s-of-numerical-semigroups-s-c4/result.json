@@ -1,0 +1,10 @@
+{
+  "folder": "ap-ry-sets-a-s-s-s-m-s-of-numerical-semigroups-s-c4",
+  "status": "machine-refuted",
+  "headline": "Refuted: Lowering the largest generator by the multiplicity cannot decrease Wilf surplus when the conductor drops by a full multiplicity",
+  "date": "2026-10-06",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "ap-ry-sets-a-s-s-s-m-s-of-numerical-semigroups-s-minimally-g",
+  "id": "c4"
+}
