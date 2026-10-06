@@ -1,0 +1,10 @@
+{
+  "folder": "finite-covering-systems-a-i-mod-m-i-with-pairwis-c4",
+  "status": "machine-refuted",
+  "headline": "Refuted: Every distinct odd cube-free congruence family leaves an uncovered CRT box with two exclusions per prime",
+  "date": "2026-10-06",
+  "models": "gpt-6.1-sol",
+  "palomar": true,
+  "run": "finite-covering-systems-a-i-mod-m-i-with-pairwise-distinct-o",
+  "id": "c4"
+}

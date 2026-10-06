@@ -4,10 +4,11 @@ Results from [mathforge](https://github.com/augusto-rehfeldt/mathforge), a fully
 
 Each folder holds the write-up (`README.md`), the scripts that were run, and, where the split succeeded, a Lake project ready for the [Palomar registry](https://palomar-registry.org/) (`Challenge.lean`, `Solution.lean`, `comparator.json`, `formalization.yaml`).
 
-38 result(s).
+39 result(s).
 
 | Date | Verdict | Claim | Models | Palomar |
 | --- | --- | --- | --- | --- |
+| 2026-10-06 | false | [Every distinct odd cube-free congruence family leaves an uncovered CRT box with two exclusions per prime](finite-covering-systems-a-i-mod-m-i-with-pairwis-c4/) | gpt-6.1-sol | bundle |
 | 2026-10-06 | false | [Lowering the largest generator by the multiplicity cannot decrease Wilf surplus when the conductor drops by a full multiplicity](ap-ry-sets-a-s-s-s-m-s-of-numerical-semigroups-s-c4/) | gpt-6.1-sol | bundle |
 | 2026-10-06 | false | [A diamond relation among four minimal generators forces Wilf’s surplus to pay for multiplicity and Apéry ambiguity](ap-ry-sets-a-s-s-s-m-s-of-numerical-semigroups-s-c2/) | gpt-6.1-sol | bundle |
 | 2026-10-05 | false | [Six-word affine blocks admit shift-invariant compatible outer codes with one information bit per block](ternary-trifferent-codes-c-0-1-2-closed-under-th-c1/) | gpt-6.1-sol | bundle |
