@@ -4,10 +4,11 @@ Results from [mathforge](https://github.com/augusto-rehfeldt/mathforge), a fully
 
 Each folder holds the write-up (`README.md`), the scripts that were run, and, where the split succeeded, a Lake project ready for the [Palomar registry](https://palomar-registry.org/) (`Challenge.lean`, `Solution.lean`, `comparator.json`, `formalization.yaml`).
 
-36 result(s).
+37 result(s).
 
 | Date | Verdict | Claim | Models | Palomar |
 | --- | --- | --- | --- | --- |
+| 2026-10-06 | false | [A diamond relation among four minimal generators forces Wilf’s surplus to pay for multiplicity and Apéry ambiguity](ap-ry-sets-a-s-s-s-m-s-of-numerical-semigroups-s-c2/) | gpt-6.1-sol | bundle |
 | 2026-10-05 | false | [Six-word affine blocks admit shift-invariant compatible outer codes with one information bit per block](ternary-trifferent-codes-c-0-1-2-closed-under-th-c1/) | gpt-6.1-sol | bundle |
 | 2026-10-05 | false | [Reciprocal cross-cycle defects synchronize exactly when their combined offset is coprime to the cycle lengths, within Černý’s bound](synchronizing-deterministic-automata-on-n-states-c2/) | gpt-6.1-sol | bundle |
 | 2026-10-05 | false | [Every skew-symmetric Littlewood sequence stable under parity-block flips has asymptotic merit factor at least four](skew-symmetric-littlewood-polynomials-p-z-j-0-2m-c3/) | gpt-6.1-sol | bundle |
